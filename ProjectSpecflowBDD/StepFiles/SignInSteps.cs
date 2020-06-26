@@ -17,6 +17,10 @@ namespace ProjectBDDRegsitrationProcess.StepFiles
             createAccountPage.EnterPersonalInfo();
             createAccountPage.EnterAdddressDetails();
             cartItemCheckoutPage.ValidateLoggedInUser();
+            /****** screenshot save path location to be added into the method
+                    string SSName = "AddtoCart Screenshot";
+                    createAccountPage.TakeScreenshot(SSName);
+            *******/
         }
 
         [Given(@"user is on My Store HomePage")]
@@ -45,6 +49,7 @@ namespace ProjectBDDRegsitrationProcess.StepFiles
         {
             cartItemCheckoutPage.MaintabWomen(table);
             cartItemCheckoutPage.AddItemtoCart(table);
+           
         }
 
         [When(@"user proceed to checkout")]

@@ -188,5 +188,21 @@ namespace ProjectBDDRegsitrationProcess.PageObjects
             Waitforelementvisible(SearchPanel, 1);
         }
 
+        public void TakeScreenshot(string SSName)
+        {
+            try
+            {
+                string path = @"********PathtostoretheScrrenshot*********" + SSName + ".png";
+                Screenshot ss = ((ITakesScreenshot)driver).GetScreenshot();
+                ss.SaveAsFile((path));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+        }
+
+
     }
 }
