@@ -18,7 +18,6 @@ Scenario: Validate New User Registration Before Checkout
 	And user should see order confirmation
 	| TotalPrice |
 	| $19.25     |
-	#Then user should see My Account page
 
 @web
 Scenario: Validate New User Registration After Checkout
