@@ -173,7 +173,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "web"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate New User Registration After Checkout", null, new string[] {
                         "web"});
-#line 24
+#line 23
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -193,7 +193,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 25
+#line 24
  testRunner.Given("user is on My Store HomePage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
@@ -202,16 +202,16 @@ this.ScenarioInitialize(scenarioInfo);
                 table3.AddRow(new string[] {
                             "Faded Short Sleeve T-shirts",
                             "$16.51"});
-#line 26
+#line 25
  testRunner.When("user adds the product to cart", ((string)(null)), table3, "When ");
 #line hidden
-#line 29
+#line 28
  testRunner.And("user proceed to checkout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 30
+#line 29
  testRunner.And("user enters new emailaddress", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 31
+#line 30
  testRunner.And("user submit create account page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
                 TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
@@ -220,23 +220,23 @@ this.ScenarioInitialize(scenarioInfo);
                 table4.AddRow(new string[] {
                             "Faded Short Sleeve T-shirts",
                             "$16.51"});
-#line 32
+#line 31
  testRunner.And("user checkout Item Summary page", ((string)(null)), table4, "And ");
 #line hidden
-#line 35
+#line 34
  testRunner.And("user proceed on Billing Address page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 36
+#line 35
  testRunner.And("user agree to terms of service", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 37
+#line 36
  testRunner.Then("user should see order summary", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
                 TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "TotalPrice"});
                 table5.AddRow(new string[] {
                             "$19.25"});
-#line 38
+#line 37
  testRunner.And("user should see order confirmation", ((string)(null)), table5, "And ");
 #line hidden
             }
@@ -253,7 +253,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "web"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate error messages for Registration page", null, new string[] {
                         "web"});
-#line 42
+#line 41
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -273,13 +273,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 43
+#line 42
  testRunner.Given("user is on My Store HomePage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 44
+#line 43
  testRunner.When("user enters new emailaddress", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 45
+#line 44
  testRunner.And("user submit incomplete Create AccountPage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
                 TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
@@ -294,8 +294,8 @@ this.ScenarioInitialize(scenarioInfo);
                             "address1"});
                 table6.AddRow(new string[] {
                             "city"});
-#line 46
- testRunner.Then("User should see <errormessage>", ((string)(null)), table6, "Then ");
+#line 45
+ testRunner.Then("user should see errormessage", ((string)(null)), table6, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
