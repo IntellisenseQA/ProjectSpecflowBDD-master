@@ -1,8 +1,16 @@
-#Onboarding
-BDD Autoamtion Framework increases and improves collaboration. It enables everyone involved in the project to easily engage with the product development cycle. And by using plain language, all are able to write behavior scenarios and helps create living documentation.
+## Onboarding
+Approach -
+BDD Automation Framework increases and improves collaboration. It enables everyone involved in the project to easily engage with the product development cycle. And by using plain language, all are able to write behavior scenarios and helps create living documentation.
 
-This solution is built using .NetCore SpecFlow Webdriver MsTest Framework.
-Uses: .Net Core SpecFlow 3.1 Selenium WebDriver 3.1 MsTest Framwork 2.1 Specflow MsTest 3.1 Selenium chrome driver utilises Page Object Model pattern can be run using Azure or Jenkins Build pipeline
+# Solution
+Built using .NetCore, SpecFlow, Webdriver & MsTest Framework.
+Uses: 
+.Net Core SpecFlow 3.1 
+Selenium WebDriver 3.1 
+MsTest Framwork 2.1 
+Specflow MsTest 3.1 
+Selenium chrome driver 
+utilises Page Object Model pattern
 
 ## Install and Setup
 Download and Install Visual Studio 
@@ -22,7 +30,8 @@ AppSettings.Json -> Add JSON Config file for Environment Configuration helps to 
 
 # Hooks
 ProjectBDDRegsitrationProcess -> Environment -> GeneralHooks -> Configs-> GeneralHooks -> 
-used for event bindings during the tests executions and also tags specfiied at test scenario level can be used in build or release pipeiline for running tests specific to smoke/functional/regression test run
+used for event bindings during the tests executions 
+Also tags specified at test scenario level can be intergated to build or release pipeiline through tools like AzureDevops/AWS/Jenkins for running tests specific to smoke/functional/regression test run
 Ex:
 "Beforescenario()"
 - Runs once before the test run 
