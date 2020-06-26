@@ -1,10 +1,10 @@
+Onboarding
 This solution is built using .NetCore SpecFlow Webdriver MsTest Framework.
-
 Uses: .Net Core SpecFlow 3.1 Selenium WebDriver 3.1 MsTest Framwork 2.1 Specflow MsTest 3.1 Selenium chrome driver utilises Page Object Model pattern can be run using Azure or Jenkins Build pipeline
 
-Install Visual Studio Community
+Install Visual Studio 
 
-Use NuGet (Project > Manage NuGet packages) to install Specflow, MSTest and Selenium:
+Open Project Solution and Build the Project (Used NuGet (Tools > NuGet package manager) to install Specflow, MSTest and Selenium etc)
 
 ProjectBDDRegsitrationProcess -> Environment -> Configs - Configuration helper file
 - Needed by all or most of the tests ex: `url`, `user data`, `environment specific data`
