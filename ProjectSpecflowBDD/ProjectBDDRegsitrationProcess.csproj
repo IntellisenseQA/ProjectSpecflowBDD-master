@@ -8,7 +8,7 @@
 
 	<PropertyGroup>
   		<VSTestLogger>trx</VSTestLogger>
-  		<VSTestResultsDirectory>C:\Users\sushi\Source\Repos\trl\ProjectSpecflowBDD\TestResults</VSTestResultsDirectory>
+  		<VSTestResultsDirectory>C:\MyProjects\ProjectSpecflowBDD-master\TestResults</VSTestResultsDirectory>
 	</PropertyGroup>
 
   <ItemGroup>
@@ -29,11 +29,13 @@
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.1.82" />
   </ItemGroup>
 
+
   <ItemGroup>
     <Compile Update="Features\Registration.feature.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Registration.feature</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
   </ItemGroup>
 
