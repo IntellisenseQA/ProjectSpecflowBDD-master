@@ -5,7 +5,7 @@ using TechTalk.SpecFlow;
 namespace ProjectBDDRegsitrationProcess.StepFiles
 {
     [Binding]
-    public sealed class SignInSteps
+    public sealed class RegistrationSteps
     {
         Testdatagenerator datagenerator = GeneralHooks.GetContext();
         CreateAccountPage createAccountPage = new CreateAccountPage();
