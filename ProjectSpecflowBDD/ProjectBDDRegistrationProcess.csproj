@@ -48,6 +48,7 @@
   <ItemGroup>
     <SpecFlowFeatureFiles Update="Features\Registration.feature">
       <Generator>SpecflowSingleFileGenerator</Generator>
+      <LastGenOutput>Registration.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
   </ItemGroup>
 

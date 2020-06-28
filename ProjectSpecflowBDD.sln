@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectBDDRegsitrationProcess", "ProjectSpecflowBDD\ProjectBDDRegsitrationProcess.csproj", "{12319340-474B-4D81-88EF-09D5C39B5FF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectBDDRegistrationProcess", "ProjectSpecflowBDD\ProjectBDDRegistrationProcess.csproj", "{12319340-474B-4D81-88EF-09D5C39B5FF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

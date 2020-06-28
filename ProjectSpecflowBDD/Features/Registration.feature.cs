@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace ProjectBDDRegsitrationProcess.Features
+namespace ProjectBDDRegistrationProcess.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -66,7 +66,7 @@ namespace ProjectBDDRegsitrationProcess.Features
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "Validate Registration Process")))
             {
-                global::ProjectBDDRegsitrationProcess.Features.ValidateRegistrationProcessFeature.FeatureSetup(null);
+                global::ProjectBDDRegistrationProcess.Features.ValidateRegistrationProcessFeature.FeatureSetup(null);
             }
         }
         
